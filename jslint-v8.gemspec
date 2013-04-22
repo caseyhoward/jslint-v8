@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
   s.files = Dir.glob("lib/**/*.rb") + Dir.glob("lib/**/*.js") + %w(Gemfile Gemfile.lock bin/jslint-v8)
   s.test_files = Dir.glob("test/**/*.rb")
 
-  s.add_dependency "therubyracer", "~> 0.10.0"
+  s.add_dependency "therubyracer"
   s.add_development_dependency "rake"
   s.add_development_dependency "test-unit"
 end
